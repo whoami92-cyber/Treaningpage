@@ -1,0 +1,37 @@
+<head>
+  <style>
+    body{ background-color:lightblue;
+    transition: background-color 1.5s;
+    }
+    .on-green {background-color:lightgreen;}
+    button{background-color: yellow;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    color:coral;
+    cursor: pointer;
+    animation:bounce 0.8s infinite ease-in-out;
+    }
+    @keyframes bounce {0%, 100% {transform: translateY(0);}
+    50%{transform: translateY(10px);}
+    }
+    h1{text-align: center;}
+    h2{text-align: right;}
+  </style>
+  <body>
+    <h1>hello this is my test page</h1>
+    <button onclick="switching()">Click</button>
+    <h2 id="tread"> tread this</h2>
+    <button onclick="switchcolor()"> taustanvaihto</button>
+  </body>
+  <script>
+    function switchcolor(){
+      document.body.classList.toggle("on-green");}
+  </script>
+  <script>
+    function switching(){
+      document.getElementById("tread").innerText="good job"}
+    
+  </script>
+  
+</head>
