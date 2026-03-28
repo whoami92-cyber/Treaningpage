@@ -1,8 +1,8 @@
-##TREANING PAGES##
+## TRAINING PAGES
 
-here i treaning 
+here i training 
 
 **javascript** ,
 **css**  And **html**
 
-this code are done  using **Acode** and using **Androi**
+this code are done  using **Acode** and using **Android**
