@@ -23,18 +23,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: pulse 1s infinite ease-in-out;
+    animation: pulse-and-move 0.8s infinite ease-in-out;
     }
-    @keyframes pulse {0%{transform:scale(1);}
-    50%{transform:scale(1.05);}
-    100%{transform: scale(1);}}
+    @keyframes pulse-and-move {0%{transform:scale(1) translate (0,0);}
+    50%{transform:scale(1.5) translate(30px,30px);}
+    100%{transform:scale(1) translate(0,0);}}
     h1{text-align: center;}
     h2{text-align: center;}
   </style>
   <body>
     <h1>hello this is my test page</h1>
     <button id="switching"
-    onclick="switching()">Click</button>
+    onclick="switching()">Click me</button>
     <h2 id="tread"> tread this</h2>
     <div>Try button</div>
     
