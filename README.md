@@ -1,13 +1,13 @@
 ## TRAINING PAGES
 
-here i training 
+here i learning
 
 `javascript` ,
 `css` And `html`
 this page have boince buttons and buttons are active
 # update
-pulse animatio
+pulse animation
 # update
-now here is only one button it switch backgroun color and thead text if you click more
+now here is only one button it switch background color and tread text if you click more
 
 this code are done  using **Acode** and using **Android**
