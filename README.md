@@ -13,3 +13,5 @@ now here is only one button it switch background color and tread text if you cli
 `div` shape and now it move and pulse same time
 # update
 shake button and buttons shape oval and div shape round
+# update
+page is update and click counter is maked
